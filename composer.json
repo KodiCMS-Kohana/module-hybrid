@@ -1,0 +1,30 @@
+{
+	"name":        "kodicms/hybrid",
+	"type":        "kodicms-module",
+	"description": "The official KodiCMS installer module",
+	"homepage":    "http://www.kodicms.ru/",
+	"license":     "BSD-3-Clause",
+	"keywords":    ["kohana", "framework", "kodicms", "cms", "module", "hybrid", "datasource"],
+	"authors": [
+		{
+			"name":     "Pavel Buchnev",
+			"email":    "butschster@gmail.com",
+			"homepage": "http://www.kodicms.ru/",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/KodiCMS/module-hybrid/issues",
+		"forum":    "http://www.kodicms.ru/forum",
+		"source":   "https://github.com/KodiCMS/module-hybrid"
+	},
+	"require": {
+		"kodicms/core"		: "dev-master",
+		"kodicms/datasource": "dev-master"
+	},
+	"extra": {
+		"installer-paths": {
+			"cms/modules/{$name}": ["type:kodicms-module"]
+		}
+	}
+}

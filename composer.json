@@ -18,6 +18,11 @@
 		"forum":    "http://www.kodicms.ru/forum",
 		"source":   "https://github.com/KodiCMS/module-hybrid"
 	},
+	"autoload": {
+		"psr-4": {
+			"KodiCMS\\Hybrid\\": 	"classes"
+		}
+	},
 	"require": {
 		"kodicms/core"		: "dev-master",
 		"kodicms/datasource": "dev-master"
